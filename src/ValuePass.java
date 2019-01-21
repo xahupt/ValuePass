@@ -1,3 +1,8 @@
+/**
+ *
+ * 结论：对于基本数据类型，是传值（String除外，因为String对象是不可变的），除此之外的都是传递引用
+ *@author percy
+ */
 public class ValuePass {
     public static void main(String[] args){
         float a=9;
